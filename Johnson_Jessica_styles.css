@@ -1,0 +1,39 @@
+/* Simple Element Selectors */
+body {
+	background-color: lightcoral;
+	text-align: center;
+}
+h1 { 
+	background-color: darkorange;
+	text-align: center;
+	color: white;
+}
+
+h2 { /*The name is often an H2 */
+	background-color: darkorange;
+	text-align: center;
+	color: darkblue;
+}
+
+p { /* Applies to all paragraphs */
+
+label {
+	font-family: fantasy;
+	color: darkblue;
+	display: block; /* Make labels take up full width */
+	margin-top: 10px;
+}
+
+input, textarea {
+	border: 3px solid green;
+	padding: 8px;
+	width: 90%;
+}
+
+button {
+	background-color: darkred;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 5px;
+	margin-top: 20px;
+}
