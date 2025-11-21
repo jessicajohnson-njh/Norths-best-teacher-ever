@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Image Gallery</title>
+	<link rel="stylesheet" href="Johnson_Jessica_style.css">
+</head>
+<body>
+	<div class="gallery-container">
+		<h1>Photo Showcase</h1>
+		<div class="image-grid">
+			<figure class="photo-card">
+				<img src="placeholder.png" alt="Landscapre">
+				<figcaption>
+					<h3> The Lake View</h3>
+					<p> A short description.</p>
+				</figcaption>
+			</figure>
+			<!-- More cards here -->
+		</div>
+	</div>
+</body>
+</html>
